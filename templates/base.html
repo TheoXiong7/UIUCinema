@@ -1,0 +1,65 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>{% block title %}Movie Search{% endblock %} - CS410 Final Project</title>
+    <script src="https://cdn.tailwindcss.com"></script>
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=JetBrains+Mono:wght@400;500;700&display=swap" rel="stylesheet">
+    <style>
+        body {
+            font-family: 'JetBrains Mono', monospace;
+        }
+        .hero-gradient {
+            background: linear-gradient(135deg, #667eea 0%, #764ba2 100%);
+        }
+    </style>
+    {% block extra_head %}{% endblock %}
+</head>
+<body class="bg-white text-gray-900 min-h-screen">
+    <!-- Header -->
+    <header class="border-b-2 border-black bg-white">
+        <div class="max-w-7xl mx-auto px-4 py-4 md:py-6">
+            <div class="flex flex-col sm:flex-row items-center justify-between gap-4">
+                <a href="/" class="text-2xl md:text-3xl font-bold text-black tracking-tight hover:underline">
+                    [CS410] UIUCinema
+                </a>
+                <div class="flex items-center gap-4 sm:gap-6">
+                    <!-- <a href="/" class="text-sm md:text-lg font-medium text-black hover:underline transition-colors">Search</a> -->
+                    <a href="/about" class="text-sm md:text-lg font-medium text-black hover:underline transition-colors">About</a>
+                </div>
+            </div>
+        </div>
+    </header>
+
+    <!-- Flash Messages -->
+    {% with messages = get_flashed_messages(with_categories=true) %}
+        {% if messages %}
+            <div class="max-w-7xl mx-auto px-4 pt-4">
+                {% for category, message in messages %}
+                    <div class="mb-4 p-4 border-2 {% if category == 'success' %}bg-green-50 border-green-500 text-green-900{% else %}bg-red-50 border-red-500 text-red-900{% endif %}">
+                        {{ message }}
+                    </div>
+                {% endfor %}
+            </div>
+        {% endif %}
+    {% endwith %}
+
+    <!-- Main Content -->
+    {% block content %}{% endblock %}
+            
+    <!-- Footer -->
+    <footer class="border-t-2 border-gray-200 mt-16">
+        <div class="max-w-7xl mx-auto px-4 py-6">
+            <div class="text-center text-sm text-gray-500 space-y-2">
+                <p class="font-medium">CS410 Final Project - Fall 2025</p>
+                <p>Hybrid Movie Search using BM25 + Semantic Embeddings</p>
+            </div>
+        </div>
+    </footer>
+
+    
+</body>
+</html>

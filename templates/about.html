@@ -1,0 +1,161 @@
+{% extends "base.html" %}
+
+{% block title %}About{% endblock %}
+
+{% block content %}
+<main class="max-w-4xl mx-auto px-4 py-12">
+    <!-- Header -->
+    <div class="mb-12 text-center">
+        <h1 class="text-4xl md:text-5xl font-bold text-black mb-4 uppercase tracking-tight">
+            About
+        </h1>
+        <p class="text-lg text-gray-600">
+            CS410 Final Project - Fall 2025
+        </p>
+    </div>
+
+    <!-- Project Overview -->
+    <div class="space-y-8">
+        <section class="border-2 border-black p-8 bg-white">
+            <h2 class="text-2xl font-bold text-black mb-4 uppercase tracking-wide">
+                Overview
+            </h2>
+            <p class="text-gray-700 leading-relaxed mb-4">
+                This movie search engine combines traditional information retrieval with modern semantic search
+                techniques to provide accurate and relevant movie recommendations based on natural language queries.
+            </p>
+            <p class="text-gray-700 leading-relaxed">
+                The system is built on the IMDB Movie Dataset and implements a hybrid search approach that
+                balances keyword matching with semantic understanding.
+            </p>
+        </section>
+
+        <!-- Technical Approach -->
+        <section class="border-2 border-black p-8 bg-white">
+            <h2 class="text-2xl font-bold text-black mb-4 uppercase tracking-wide">
+                Technical Approach
+            </h2>
+
+            <div class="space-y-6">
+                <div>
+                    <h3 class="text-lg font-bold text-black mb-2">1. BM25 Ranking</h3>
+                    <p class="text-gray-700 leading-relaxed">
+                        Traditional lexical search using BM25Okapi algorithm with tuned parameters
+                        (k1=1.2, b=0.75) for optimal term frequency and document length normalization.
+                    </p>
+                </div>
+
+                <div>
+                    <h3 class="text-lg font-bold text-black mb-2">2. Semantic Embeddings</h3>
+                    <p class="text-gray-700 leading-relaxed">
+                        Neural sentence embeddings using SentenceTransformers (all-MiniLM-L6-v2)
+                        to capture semantic meaning beyond exact keyword matches.
+                    </p>
+                </div>
+
+                <div>
+                    <h3 class="text-lg font-bold text-black mb-2">3. Hybrid Fusion</h3>
+                    <p class="text-gray-700 leading-relaxed">
+                        Score normalization and weighted combination (alpha=0.65) of both approaches
+                        to leverage the strengths of lexical and semantic search.
+                    </p>
+                </div>
+
+                <div>
+                    <h3 class="text-lg font-bold text-black mb-2">4. Text Preprocessing</h3>
+                    <p class="text-gray-700 leading-relaxed">
+                        Advanced cleaning, lemmatization using spaCy, and stopword removal to improve
+                        retrieval quality and reduce noise in the corpus.
+                    </p>
+                </div>
+            </div>
+        </section>
+
+        <!-- Dataset -->
+        <section class="border-2 border-black p-8 bg-white">
+            <h2 class="text-2xl font-bold text-black mb-4 uppercase tracking-wide">
+                Dataset
+            </h2>
+            <p class="text-gray-700 leading-relaxed mb-4">
+                The system uses the IMDB Movie Dataset enriched with keyword extraction using:
+            </p>
+            <ul class="list-disc list-inside text-gray-700 space-y-2 ml-4">
+                <li>KeyBERT for contextualized keyword extraction</li>
+                <li>YAKE for unsupervised keyword extraction</li>
+                <li>Sentence Transformers for semantic keywords</li>
+            </ul>
+        </section>
+
+        <!-- Evaluation Metrics -->
+        <section class="border-2 border-black p-8 bg-white">
+            <h2 class="text-2xl font-bold text-black mb-4 uppercase tracking-wide">
+                Evaluation
+            </h2>
+            <div class="grid md:grid-cols-2 gap-6">
+                <div class="p-4 bg-gray-50 border border-gray-300">
+                    <h3 class="font-bold text-black mb-2">Precision@10</h3>
+                    <p class="text-sm text-gray-600">
+                        Measures the proportion of relevant movies in the top 10 results
+                    </p>
+                </div>
+                <div class="p-4 bg-gray-50 border border-gray-300">
+                    <h3 class="font-bold text-black mb-2">nDCG@10</h3>
+                    <p class="text-sm text-gray-600">
+                        Normalized Discounted Cumulative Gain for ranking quality assessment
+                    </p>
+                </div>
+            </div>
+        </section>
+
+        <!-- Tech Stack -->
+        <section class="border-2 border-black p-8 bg-white">
+            <h2 class="text-2xl font-bold text-black mb-4 uppercase tracking-wide">
+                Tech Stack
+            </h2>
+            <div class="grid grid-cols-2 md:grid-cols-3 gap-4">
+                <div class="p-3 border border-gray-300 bg-gray-50 text-center">
+                    <div class="font-bold text-black">Python</div>
+                    <div class="text-xs text-gray-600">Backend</div>
+                </div>
+                <div class="p-3 border border-gray-300 bg-gray-50 text-center">
+                    <div class="font-bold text-black">Flask</div>
+                    <div class="text-xs text-gray-600">Web Framework</div>
+                </div>
+                <div class="p-3 border border-gray-300 bg-gray-50 text-center">
+                    <div class="font-bold text-black">rank-bm25</div>
+                    <div class="text-xs text-gray-600">Lexical Search</div>
+                </div>
+                <div class="p-3 border border-gray-300 bg-gray-50 text-center">
+                    <div class="font-bold text-black">SentenceTransformers</div>
+                    <div class="text-xs text-gray-600">Semantic Search</div>
+                </div>
+                <div class="p-3 border border-gray-300 bg-gray-50 text-center">
+                    <div class="font-bold text-black">spaCy</div>
+                    <div class="text-xs text-gray-600">NLP Pipeline</div>
+                </div>
+                <div class="p-3 border border-gray-300 bg-gray-50 text-center">
+                    <div class="font-bold text-black">Tailwind CSS</div>
+                    <div class="text-xs text-gray-600">Frontend Design</div>
+                </div>
+            </div>
+        </section>
+
+        <!-- Note -->
+        <!-- <div class="p-6 bg-yellow-50 border-2 border-yellow-400">
+            <h3 class="font-bold text-black mb-2 uppercase tracking-wide">Development Note</h3>
+            <p class="text-sm text-gray-700">
+                This is a demonstration webapp with placeholder data. The actual search model
+                will be integrated once training and evaluation are complete. All queries currently
+                return randomized sample results for UI/UX testing purposes.
+            </p>
+        </div> -->
+    </div>
+
+    <!-- Back Button -->
+    <div class="mt-12 text-center">
+        <a href="/" class="inline-block px-6 py-3 border-2 border-black text-black font-bold hover:bg-black hover:text-white transition-colors uppercase tracking-wide">
+            ← Back to Search
+        </a>
+    </div>
+</main>
+{% endblock %}

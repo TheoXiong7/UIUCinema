@@ -1,0 +1,10 @@
+Flask
+nltk
+spacy
+rank-bm25
+sentence-transformers
+numpy
+pandas
+torch
+scikit-learn
+tqdm

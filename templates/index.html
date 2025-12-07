@@ -1,0 +1,132 @@
+{% extends "base.html" %}
+
+{% block title %}Search{% endblock %}
+
+{% block content %}
+<main>
+    <!-- Hero Section -->
+    <div class="hero-gradient border-b-2 border-black">
+        <div class="max-w-4xl mx-auto px-4 py-16 md:py-24">
+            <div class="text-center">
+                
+                <h1 class="text-4xl md:text-6xl font-bold text-white mb-4 tracking-tight">
+                    SEARCH MOVIES BY PLOT
+                </h1>
+                <p class="text-lg md:text-xl text-white/90 mb-8 max-w-2xl mx-auto">
+                    Two-stage hybrid search: BM25F retrieval + semantic reranking
+                </p>
+
+                <!-- Search Form -->
+                <form action="/search" method="GET" class="max-w-2xl mx-auto">
+                    <div class="flex flex-col sm:flex-row gap-3">
+                        <input
+                            type="text"
+                            name="q"
+                            placeholder="Describe a movie plot..."
+                            class="flex-1 px-6 py-4 text-lg border-2 border-black focus:outline-none focus:ring-4 focus:ring-white/50 font-medium"
+                            required
+                        >
+                        <button
+                            type="submit"
+                            class="px-8 py-4 bg-black text-white font-bold text-lg border-2 border-black hover:bg-white hover:text-black transition-all duration-200 uppercase tracking-wide"
+                        >
+                            Search
+                        </button>
+                    </div>
+                </form>
+            </div>
+        </div>
+    </div>
+
+    <!-- Example Queries Section -->
+    <div class="max-w-7xl mx-auto px-4 py-12">
+        <div class="bg-gray-50 border-2 border-gray-300 p-8">
+            <h2 class="text-xl md:text-2xl font-bold text-black mb-6 uppercase tracking-wide">
+                Try these example queries
+            </h2>
+
+            <div class="grid md:grid-cols-2 gap-4">
+                <a href="/search?q=Two+teenagers+meet+singing+karaoke+on+New+Year's+Eve+then+find+each+other+at+school"
+                   class="block p-4 bg-white border-2 border-gray-300 hover:border-black transition-colors group">
+                    <div class="flex items-start justify-between">
+                        <div>
+                            <p class="font-semibold text-black group-hover:underline">
+                                Two teenagers meet singing karaoke on New Year's Eve then find each other at school
+                            </p>
+                            <p class="text-sm text-gray-600 mt-1"><em>High School Musical</em></p>
+                        </div>
+                        <span class="text-2xl">&#8594;</span>
+                    </div>
+                </a>
+
+                <a href="/search?q=PhD+student+studying+marine+mammals+and+orca+whales+in+Washington+State"
+                   class="block p-4 bg-white border-2 border-gray-300 hover:border-black transition-colors group">
+                    <div class="flex items-start justify-between">
+                        <div>
+                            <p class="font-semibold text-black group-hover:underline">
+                                PhD student studying marine mammals and orca whales in Washington State
+                            </p>
+                            <p class="text-sm text-gray-600 mt-1"><em>A Splash of Love</em></p>
+                        </div>
+                        <span class="text-2xl">&#8594;</span>
+                    </div>
+                </a>
+
+                <a href="/search?q=Children+of+Disney+villains+attend+prep+school+in+Auradon"
+                   class="block p-4 bg-white border-2 border-gray-300 hover:border-black transition-colors group">
+                    <div class="flex items-start justify-between">
+                        <div>
+                            <p class="font-semibold text-black group-hover:underline">
+                                Children of Disney villains attend prep school in Auradon
+                            </p>
+                            <p class="text-sm text-gray-600 mt-1"><em>Descendants</em></p>
+                        </div>
+                        <span class="text-2xl">&#8594;</span>
+                    </div>
+                </a>
+
+                <a href="/search?q=Werewolf+alpha+Scott+McCall+returns+to+Beacon+Hills+to+fight+supernatural+evil"
+                   class="block p-4 bg-white border-2 border-gray-300 hover:border-black transition-colors group">
+                    <div class="flex items-start justify-between">
+                        <div>
+                            <p class="font-semibold text-black group-hover:underline">
+                                Werewolf alpha Scott McCall returns to Beacon Hills to fight supernatural evil
+                            </p>
+                            <p class="text-sm text-gray-600 mt-1"><em>Teen Wolf: The Movie</em></p>
+                        </div>
+                        <span class="text-2xl">&#8594;</span>
+                    </div>
+                </a>
+            </div>
+        </div>
+
+        <!-- Features Section -->
+        <div class="mt-12 grid md:grid-cols-3 gap-6">
+            <div class="border-2 border-black p-6 bg-white">
+                <div class="text-3xl mb-4">1</div>
+                <h3 class="text-lg font-bold mb-2 uppercase">BM25F Retrieval</h3>
+                <p class="text-sm text-gray-600">
+                    Field-weighted BM25 scoring across plot, keywords, and metadata with pseudo-relevance feedback
+                </p>
+            </div>
+
+            <div class="border-2 border-black p-6 bg-white">
+                <div class="text-3xl mb-4">2</div>
+                <h3 class="text-lg font-bold mb-2 uppercase">Semantic Reranking</h3>
+                <p class="text-sm text-gray-600">
+                    Top candidates reranked using sentence-transformer embeddings (all-MiniLM-L6-v2)
+                </p>
+            </div>
+
+            <div class="border-2 border-black p-6 bg-white">
+                <div class="text-3xl mb-4">3</div>
+                <h3 class="text-lg font-bold mb-2 uppercase">Hybrid Scoring</h3>
+                <p class="text-sm text-gray-600">
+                    Final scores combine BM25 and semantic similarity (alpha=0.7 semantic weight)
+                </p>
+            </div>
+        </div>
+
+    </div>
+</main>
+{% endblock %}
