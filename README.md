@@ -4,6 +4,12 @@ Plot-based movie search engine using two-stage hybrid retrieval (BM25F + semanti
 
 **CS410 FA25 Final Project - Group 18**
 
+### Team Overview
+
+* Theo Xiong                     ([@TheoXiong7](https://github.com/TheoXiong7))                                   			
+* Yichong Liu                     ([@YiChong_Liu](https://github.com/YiChong-Liu))
+* Mei Han                     ([@fishbrook](https://github.com/fishbrook))
+
 ## Project Structure
 
 ```
