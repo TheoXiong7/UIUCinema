@@ -47,11 +47,15 @@ python preprocessing.py
 ```
 
 **Train/evaluate model:**
+
 ```bash
 jupyter notebook Train.ipynb
 ```
 
+For result verification only, this notebook may be executed directly & automatically in Google Colab. The estimated runtime is approximately 10–30 minutes, depending on the available computational resources; utilizing a GPU runtime is highly recommended.
+
 **Run web app:**
+
 ```bash
 python app.py
 ```
