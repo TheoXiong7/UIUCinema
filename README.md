@@ -4,6 +4,12 @@ Plot-based movie search engine using two-stage hybrid retrieval (BM25F + semanti
 
 **CS410 FA25 Final Project - Group 18**
 
+### Team Overview
+
+* Theo Xiong                     ([@TheoXiong7](https://github.com/TheoXiong7))                                   			
+* Yichong Liu                     ([@YiChong_Liu](https://github.com/YiChong-Liu))
+* Mei Han                     ([@fishbrook](https://github.com/fishbrook))
+
 ## Project Structure
 
 ```
@@ -41,11 +47,15 @@ python preprocessing.py
 ```
 
 **Train/evaluate model:**
+
 ```bash
 jupyter notebook Train.ipynb
 ```
 
+For result verification only, this notebook may be executed directly & automatically in Google Colab. The estimated runtime is approximately 10–30 minutes, depending on the available computational resources; utilizing a GPU runtime is highly recommended.
+
 **Run web app:**
+
 ```bash
 python app.py
 ```
