@@ -1,0 +1,602 @@
+[
+  {
+    "query": "Two teenagers meet at a New Year's Eve karaoke party and later discover they attend the same high school",
+    "relevant": {
+      "High School Musical": 2
+    }
+  },
+  {
+    "query": "Basketball star and brainy new girl audition for school musical against drama queen siblings",
+    "relevant": {
+      "High School Musical": 2
+    }
+  },
+  {
+    "query": "Marine biology PhD student studies endangered orca whales in Pacific Northwest",
+    "relevant": {
+      "A Splash of Love": 2
+    }
+  },
+  {
+    "query": "Researcher falls for tour guide while studying Southern Resident orca population in Washington State",
+    "relevant": {
+      "A Splash of Love": 2
+    }
+  },
+  {
+    "query": "Children of Disney villains from Isle of the Lost attend prestigious prep school",
+    "relevant": {
+      "Descendants": 2
+    }
+  },
+  {
+    "query": "Son of Belle and Beast invites villain kids to Auradon Prep school",
+    "relevant": {
+      "Descendants": 2
+    }
+  },
+  {
+    "query": "Alpha werewolf returns to Beacon Hills to gather supernatural allies against deadly threat",
+    "relevant": {
+      "Teen Wolf: The Movie": 2
+    }
+  },
+  {
+    "query": "Banshees werecoyotes and kitsunes unite under full moon in Beacon Hills",
+    "relevant": {
+      "Teen Wolf: The Movie": 2
+    }
+  },
+  {
+    "query": "Bank manager devises plan to rob his own bank based on Andy McNab novel",
+    "relevant": {
+      "The Grey Man": 2
+    }
+  },
+  {
+    "query": "Zombie student and cheerleader fall in love at integrated high school fifty years after apocalypse",
+    "relevant": {
+      "Z-O-M-B-I-E-S": 2
+    }
+  },
+  {
+    "query": "Football playing zombie and cheerleader bring together human and undead communities in Seabrook",
+    "relevant": {
+      "Z-O-M-B-I-E-S": 2
+    }
+  },
+  {
+    "query": "Hobby farmer receives mysterious historic love letters in her mailbox from secret admirer",
+    "relevant": {
+      "14 Love Letters": 2
+    }
+  },
+  {
+    "query": "Navy captain reunites with woman who rejected his proposal eight years earlier",
+    "relevant": {
+      "Persuasion": 2
+    }
+  },
+  {
+    "query": "Former lovers meet again when her family's estate is rented by his brother-in-law admiral",
+    "relevant": {
+      "Persuasion": 2
+    }
+  },
+  {
+    "query": "Hurricane off Mexico creates tornado filled with sharks attacking Los Angeles",
+    "relevant": {
+      "Sharknado": 2
+    }
+  },
+  {
+    "query": "Former surfing champion fights flying sharks during unprecedented weather phenomenon in California",
+    "relevant": {
+      "Sharknado": 2
+    }
+  },
+  {
+    "query": "Teen girl works in kitchen at music camp and is secretly heard singing by pop star",
+    "relevant": {
+      "Camp Rock": 2
+    }
+  },
+  {
+    "query": "Teenage pop star searches for mystery girl with beautiful voice at prestigious rock camp",
+    "relevant": {
+      "Camp Rock": 2
+    }
+  },
+  {
+    "query": "Half human half werewolf teen finds place at school for monsters but her identity is threatened",
+    "relevant": {
+      "Monster High": 2
+    }
+  },
+  {
+    "query": "Mistreated girl with cruel stepmother and stepsisters gets help from fairy godmother to attend royal ball",
+    "relevant": {
+      "Cinderella": 2
+    }
+  },
+  {
+    "query": "Two high school students from opposite social worlds stranded on tropical island after Caribbean storm",
+    "relevant": {
+      "Blue Lagoon: The Awakening": 2
+    }
+  },
+  {
+    "query": "Surfers magically transported into 1960s beach party movie with rivalry between bikers and surfers",
+    "relevant": {
+      "Teen Beach Movie": 2
+    }
+  },
+  {
+    "query": "Philadelphia girl becomes top model in New York but struggles with addiction and unfulfilled desire for love",
+    "relevant": {
+      "Gia": 2
+    }
+  },
+  {
+    "query": "Single mother kidnapped and held captive for eleven years escapes with other abducted women",
+    "relevant": {
+      "Cleveland Abduction": 2
+    }
+  },
+  {
+    "query": "Villain kids return to Isle of Lost where daughter of Ursula has taken over as queen",
+    "relevant": {
+      "Descendants 2": 2
+    }
+  },
+  {
+    "query": "Disney villain teenagers recruit new batch of villainous offspring for Auradon Prep",
+    "relevant": {
+      "Descendants 3": 2
+    }
+  },
+  {
+    "query": "Romance between zombie and cheerleader threatened by arrival of werewolves at Seabrook High",
+    "relevant": {
+      "Z-O-M-B-I-E-S 2": 2
+    }
+  },
+  {
+    "query": "High school friends work at country club owned by drama queen's family during summer break",
+    "relevant": {
+      "High School Musical 2": 2
+    }
+  },
+  {
+    "query": "Sheffield working class people experience nuclear attack during Cold War tension between US and Soviet Union",
+    "relevant": {
+      "Threads": 2
+    }
+  },
+  {
+    "query": "Kansas town experiences weeks leading up to and following nuclear strike on United States",
+    "relevant": {
+      "The Day After": 2
+    }
+  },
+  {
+    "query": "Businessman stalked and chased through desert by psychotic truck driver on empty highway",
+    "relevant": {
+      "Duel": 2
+    }
+  },
+  {
+    "query": "Boston family confronts violent past as events that shaped them come to light",
+    "relevant": {
+      "Ray Donovan: The Movie": 2
+    }
+  },
+  {
+    "query": "Released prisoner hunts down Marshal Matt Dillon and Miss Kitty Russell for putting him away",
+    "relevant": {
+      "Gunsmoke: Return to Dodge": 2
+    }
+  },
+  {
+    "query": "Old West characters reunite to celebrate South Dakota statehood in 1889",
+    "relevant": {
+      "Deadwood": 2
+    }
+  },
+  {
+    "query": "Toy store data analyst fights to save jobs and keep in-person retail experience before Christmas",
+    "relevant": {
+      "Christmas in Toyland": 2
+    }
+  },
+  {
+    "query": "Woman's 30th birthday overshadowed by brother's Christmas Eve wedding reconnects with childhood crush",
+    "relevant": {
+      "A Very Merry Bridesmaid": 2
+    }
+  },
+  {
+    "query": "Man convinces ex-girlfriend to pretend they're still together during family Christmas visit",
+    "relevant": {
+      "An Unexpected Christmas": 2
+    }
+  },
+  {
+    "query": "Foster care worker discovers biological father through ancestry test and spends Christmas with new family",
+    "relevant": {
+      "My Christmas Family Tree": 2
+    }
+  },
+  {
+    "query": "Crime writer who steals others' work is poisoned at award ceremony and ex-wife is framed",
+    "relevant": {
+      "Perry Mason: The Case of the Poisoned Pen": 2
+    }
+  },
+  {
+    "query": "Horror writer murdered at haunted hotel after inviting people he wronged to discuss his new book",
+    "relevant": {
+      "Perry Mason: The Case of the Sinister Spirit": 2
+    }
+  },
+  {
+    "query": "International master thief Simon Templar searches for kidnapped girl while evading authorities",
+    "relevant": {
+      "The Saint": 2
+    }
+  },
+  {
+    "query": "Superhero leads triple life running corporation and fighting crime in modern day",
+    "relevant": {
+      "Wonder Woman": 2
+    }
+  },
+  {
+    "query": "Princess escapes royal protocols to road trip from Beverly Hills to Chicago to meet artist",
+    "relevant": {
+      "A Royal Runaway Romance": 2
+    }
+  },
+  {
+    "query": "Widow raising children alone on remote homestead and hardworking cowboy face outlaws and elements",
+    "relevant": {
+      "Conagher": 2
+    }
+  },
+  {
+    "query": "Wealthy teens at elite private school uncover dark conspiracy involving supernatural events",
+    "relevant": {
+      "Das Privileg": 2
+    }
+  },
+  {
+    "query": "Fifteen year old athlete secretly falls in love with teammate during summer relay training",
+    "relevant": {
+      "Jongens": 2
+    }
+  },
+  {
+    "query": "Wealthy family's life disrupted when teenage daughter of family friend moves in with them",
+    "relevant": {
+      "Lies Between Friends": 2
+    }
+  },
+  {
+    "query": "University freshman struggling financially answers online ad for paid companionship",
+    "relevant": {
+      "Mes chères études": 2
+    }
+  },
+  {
+    "query": "London charwoman in 1950s saves money to buy Christian Dior dress and travels to Paris",
+    "relevant": {
+      "Mrs. 'Arris Goes to Paris": 2
+    }
+  },
+  {
+    "query": "Cheerleader sexually assaulted by football team pieces together forgotten night using social media evidence",
+    "relevant": {
+      "The Assault": 2
+    }
+  },
+  {
+    "query": "Wealthy merchant in Macao tries to make famous sailor legend about paying man to father heir come true",
+    "relevant": {
+      "Histoire immortelle": 2
+    }
+  },
+  {
+    "query": "Kidnapped teenager talks captor into releasing her but only one detective believes serial killer story",
+    "relevant": {
+      "Believe Me: The Abduction of Lisa McVey": 2
+    }
+  },
+  {
+    "query": "Care home worker with special connection to residents faces coronavirus pandemic in Liverpool",
+    "relevant": {
+      "Help": 2
+    }
+  },
+  {
+    "query": "Obsessive girlfriend isolates teenage boy from family and makes violent accusations when confronted",
+    "relevant": {
+      "A Mother's Nightmare": 2
+    }
+  },
+  {
+    "query": "Single mother with dark past protects daughter while defending those who cannot protect themselves",
+    "relevant": {
+      "Buried in Barstow": 2
+    }
+  },
+  {
+    "query": "Live broadcast performance of classic animated Disney mermaid tale with musical numbers",
+    "relevant": {
+      "The Little Mermaid Live!": 2
+    }
+  },
+  {
+    "query": "Biographical film about famous rock and roll singer from Memphis",
+    "relevant": {
+      "Elvis": 2
+    }
+  },
+  {
+    "query": "Drama about famous ocean liner disaster and passengers aboard the doomed ship",
+    "relevant": {
+      "S.O.S. Titanic": 2
+    }
+  },
+  {
+    "query": "Documentary behind the scenes of revolutionary sci-fi film about simulated reality",
+    "relevant": {
+      "Making 'The Matrix'": 2
+    }
+  },
+  {
+    "query": "Chewbacca and Han Solo try to reach Wookiee home planet for Life Day celebration",
+    "relevant": {
+      "The Star Wars Holiday Special": 2
+    }
+  },
+  {
+    "query": "Young boy defends Gotham City on Christmas Eve when villains escape while Batman is away",
+    "relevant": {
+      "Merry Little Batman": 2
+    }
+  },
+  {
+    "query": "Documentary recap of animated series about young airbender who must master all four elements",
+    "relevant": {
+      "Avatar: The Last Airbender - The Legend So Far": 2
+    }
+  },
+  {
+    "query": "True story of famous crime family patriarch who ran mafia organization",
+    "relevant": {
+      "Bonanno: A Godfather's Story": 2
+    }
+  },
+  {
+    "query": "Ice skating romance where competitors fall in love while training together",
+    "relevant": {
+      "Frozen in Love": 2
+    }
+  },
+  {
+    "query": "Young superheroes form secret team to fight against threats while proving themselves",
+    "relevant": {
+      "Marvel Rising: Secret Warriors": 2
+    }
+  },
+  {
+    "query": "Web-slinging hero fights crime in New York City in classic television adventure",
+    "relevant": {
+      "Spider-Man Strikes Back": 2
+    }
+  },
+  {
+    "query": "Teenage boy becomes Batman in futuristic Gotham City under Bruce Wayne's guidance",
+    "relevant": {
+      "Batman Beyond: The Movie": 2
+    }
+  },
+  {
+    "query": "Documentary exploring impact and making of classic gangster film trilogy",
+    "relevant": {
+      "The Godfather Legacy": 2
+    }
+  },
+  {
+    "query": "True story of engineers who stayed aboard sinking ship to keep lights and power running",
+    "relevant": {
+      "Saving the Titanic": 2
+    }
+  },
+  {
+    "query": "Animated comedy where Darth Vader deals with annoying new apprentice after Death Star destruction",
+    "relevant": {
+      "Lego Star Wars: The Empire Strikes Out": 2
+    }
+  },
+  {
+    "query": "Disney channel stars celebrate holiday season with musical performances and family activities",
+    "relevant": {
+      "Radio Disney's Family Holiday": 2
+    }
+  },
+  {
+    "query": "Documentary exploring mythology and hidden meanings in famous wizard book series",
+    "relevant": {
+      "The Hidden Secrets of Harry Potter": 2
+    }
+  },
+  {
+    "query": "Director returns to examine shipwreck and new discoveries twenty years after blockbuster film",
+    "relevant": {
+      "Titanic: 20 Years Later with James Cameron": 2
+    }
+  },
+  {
+    "query": "Dark Knight and Man of Steel team up when Joker and Lex Luthor join forces",
+    "relevant": {
+      "The Batman Superman Movie: World's Finest": 2
+    }
+  },
+  {
+    "query": "Darth Vader's secret apprentice hunts down surviving Jedi after Order 66",
+    "relevant": {
+      "Star Wars: The Force Unleashed": 2
+    }
+  },
+  {
+    "query": "Behind the scenes documentary about making of iconic mafia film trilogy",
+    "relevant": {
+      "The Godfather Family: A Look Inside": 2
+    }
+  },
+  {
+    "query": "True story of man with learning difficulties who became beloved community figure",
+    "relevant": {
+      "Marvellous": 2
+    }
+  },
+  {
+    "query": "Former SHIELD agents on the run as fugitives while fighting threats",
+    "relevant": {
+      "Marvel's Most Wanted": 2
+    }
+  },
+  {
+    "query": "Web-slinger travels overseas to stop villain and rescue kidnapped government official",
+    "relevant": {
+      "Spider-Man: The Dragon's Challenge": 2
+    }
+  },
+  {
+    "query": "Documentary about making of multiverse spider-hero film with returning villains and heroes",
+    "relevant": {
+      "Spider-Man: All Roads Lead to No Way Home": 2
+    }
+  },
+  {
+    "query": "Woman inherits old house and discovers family secrets while falling for local contractor",
+    "relevant": {
+      "Drama": 2
+    }
+  },
+  {
+    "query": "Woman working in Liverpool care home faces coronavirus pandemic in March 2020",
+    "relevant": {
+      "Help": 2
+    }
+  },
+  {
+    "query": "Story of events leading up to nuclear strike on United States centered on Kansas town",
+    "relevant": {
+      "The Day After": 2
+    }
+  },
+  {
+    "query": "Sheffield residents experience nuclear war between US and Soviet Union",
+    "relevant": {
+      "Threads": 2
+    }
+  },
+  {
+    "query": "California businessman chased by deranged truck driver through desert highway",
+    "relevant": {
+      "Duel": 2
+    }
+  },
+  {
+    "query": "Homecoming queen election turns cruel when mean girls target overweight student",
+    "relevant": {
+      "N.Y.P.D. Mounted": 2
+    }
+  },
+  {
+    "query": "Cheerleader assault victim pieces together forgotten night from social media evidence",
+    "relevant": {
+      "The Assault": 2
+    }
+  },
+  {
+    "query": "Crime writer poisoned at award ceremony after stealing book plots from others",
+    "relevant": {
+      "Perry Mason: The Case of the Poisoned Pen": 2
+    }
+  },
+  {
+    "query": "Master thief tasked with rescuing kidnapped daughter while evading law",
+    "relevant": {
+      "The Saint": 2
+    }
+  },
+  {
+    "query": "Macao merchant tries to make sailor legend about paid heir true",
+    "relevant": {
+      "Histoire immortelle": 2
+    }
+  },
+  {
+    "query": "Kidnapped woman survives eleven years in captivity before escaping with other victims",
+    "relevant": {
+      "Cleveland Abduction": 2
+    }
+  },
+  {
+    "query": "Philadelphia model becomes cover girl in New York but descends into addiction",
+    "relevant": {
+      "Gia": 2
+    }
+  },
+  {
+    "query": "Live television performance of classic Disney animated mermaid musical",
+    "relevant": {
+      "The Little Mermaid Live!": 2
+    }
+  },
+  {
+    "query": "Zombie football player and human cheerleader bring communities together in Seabrook",
+    "relevant": {
+      "Z-O-M-B-I-E-S": 2
+    }
+  },
+  {
+    "query": "Werewolves arrive threatening zombie and cheerleader romance at Seabrook High",
+    "relevant": {
+      "Z-O-M-B-I-E-S 2": 2
+    }
+  },
+  {
+    "query": "Documentary about revolutionary science fiction film with actors in simulated reality",
+    "relevant": {
+      "Making 'The Matrix'": 2
+    }
+  },
+  {
+    "query": "Wookiee family celebrates Life Day while avoiding Imperial forces",
+    "relevant": {
+      "The Star Wars Holiday Special": 2
+    }
+  },
+  {
+    "query": "Darth Vader's secret apprentice hunts Jedi survivors after Clone Wars",
+    "relevant": {
+      "Star Wars: The Force Unleashed": 2
+    }
+  },
+  {
+    "query": "Director revisits famous shipwreck site with new technology decades later",
+    "relevant": {
+      "Titanic: 20 Years Later with James Cameron": 2
+    }
+  },
+  {
+    "query": "True story of brave crew members who kept power running on sinking ocean liner",
+    "relevant": {
+      "Saving the Titanic": 2
+    }
+  }
+]

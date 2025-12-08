@@ -15,7 +15,6 @@ Plot-based movie search engine using two-stage hybrid retrieval (BM25F + semanti
 ```
 UIUCinema/
 ├── app.py                 # Flask webapp
-├── preprocessing.py       # preprocess dataset
 ├── Train.ipynb            # train and evaluate model
 ├── data/
 │   ├── imdb_movie_keyword.csv
@@ -40,11 +39,6 @@ pip install -r requirements.txt
 ```
 
 ## Usage
-
-**Preprocess data:**
-```bash
-python preprocessing.py
-```
 
 **Train/evaluate model:**
 
