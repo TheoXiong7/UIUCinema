@@ -1,6 +1,5 @@
 Flask
 nltk
-spacy
 rank-bm25
 sentence-transformers
 numpy
